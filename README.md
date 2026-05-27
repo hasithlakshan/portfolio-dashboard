@@ -75,7 +75,7 @@ portfolio-dashboard/
 **Prerequisites:** Docker + Docker Compose installed.
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/hasithlakshan/portfolio-dashboard.git
 cd portfolio-dashboard
 docker compose up --build
 ```
