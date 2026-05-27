@@ -199,5 +199,3 @@ createdAt         quantity (Decimal 18,8)    quantity, price, total
                   currentPrice  (Decimal)    createdAt
                   purchasedAt, timestamps
 ```
-
-`Decimal(18,2)` used for prices — avoids float precision issues common in financial data.
