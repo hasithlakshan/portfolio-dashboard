@@ -25,9 +25,7 @@ export async function register(name: string, email: string, password: string) {
 }
 
 export async function login(email: string, password: string) {
-  console.log('user>>>>>>>>>>>>', email)
   const user = await prisma.user.findUnique({ where: { email } });
-  console.log('user>>>>>>>>>>>>')
   if (!user) {
     throw ApiError.unauthorized('Invalid email or password');
   }
