@@ -7,8 +7,8 @@ import LoadingSpinner from '../../components/LoadingSpinner';
 import type { Investment } from '../../types';
 
 const sellSchema = z.object({
-  quantity: z.number({ invalid_type_error: 'Quantity is required' }).positive('Must be positive'),
-  price: z.number({ invalid_type_error: 'Price is required' }).positive('Must be positive'),
+  quantity: z.number({ error: 'Quantity is required' }).positive('Must be positive'),
+  price: z.number({ error: 'Price is required' }).positive('Must be positive'),
   notes: z.string().optional(),
 });
 
