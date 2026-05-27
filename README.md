@@ -7,16 +7,16 @@ A full-stack portfolio management application built with React, Node.js, TypeScr
 ## Screenshots
 
 **Login Page**
-![Login](docs/screenshots/login.png)
+![Login](docs/screenshots/login.PNG)
 
 **Dashboard**
-![Dashboard](docs/screenshots/dashboard.png)
+![Dashboard](docs/screenshots/dashboard.PNG)
 
 **Investments**
-![Investments](docs/screenshots/investments.png)
+![Investments](docs/screenshots/investments.PNG)
 
 **Transactions**
-![Transactions](docs/screenshots/transactions.png)
+![Transactions](docs/screenshots/transactions.PNG)
 
 ---
 
